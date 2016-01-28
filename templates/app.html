@@ -3,11 +3,11 @@
         <title>Фотографии, которые понравились</title>
     </head>
     <body>
-        <a href="/insta/logout/">Выйти</a>
+        <a href="/rsoi1/logout/">Выйти</a>
 
-        <h1>Вы отметили следующие фотографии:</h1>
+        <h1>Недавно загруженные пользователем материалы</h1>
 
-        {% for image in liked_images %}
+        {% for image in media %}
             <div>
                 <img src="{{ image }}">
             </div>

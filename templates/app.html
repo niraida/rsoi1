@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Фотографии, которые понравились</title>
+    </head>
+    <body>
+        <a href="/insta/logout/">Выйти</a>
+
+        <h1>Вы отметили следующие фотографии:</h1>
+
+        {% for image in liked_images %}
+            <div>
+                <img src="{{ image }}">
+            </div>
+        {% endfor %}
+    </body>
+</html>
